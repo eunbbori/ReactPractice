@@ -1,5 +1,5 @@
 import './App.css'
-import Say from './Say';
+import EventPractice from './EventPractice';
 
 // function App() {
 //   const name = '리액트'; 
@@ -13,7 +13,7 @@ import Say from './Say';
 // }
 
 const App = () => {
-  return (<Say />)
+  return (<EventPractice />)
 };
 
 export default App;
