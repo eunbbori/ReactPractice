@@ -13,7 +13,7 @@ const TodoItem = ({todo,onToggle,onRemove}) => {
 const Todos =({
   input,
   todos,
-  onChanegeInput,
+  onChangeInput,
   onInsert,
   onToggle,
   onRemove,
@@ -24,8 +24,8 @@ const Todos =({
   return(
     <div>
       <form onSubmit={onSubmit}>
-      <input/>
-      <button type='submit'>등록</button>
+        <input/>
+        <button type='submit'>등록</button>
       </form>
       <div>
         <TodoItem/>
